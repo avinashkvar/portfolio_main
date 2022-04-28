@@ -20,7 +20,7 @@ import {
 	faHtml5,
 	faJs,
 	faReact,
-	faNode,
+	faBootstrap,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Experience = ({ darkMode }) => {
@@ -335,6 +335,20 @@ const Experience = ({ darkMode }) => {
 															className="skill"
 															size="2x"
 															icon={faJs}
+														/>
+													</Button>
+													<Button
+														variant={
+															darkMode
+																? 'outline-light'
+																: 'outline-dark'
+														}
+														className="skills-btn"
+													>
+														<FontAwesomeIcon
+															className="skill"
+															size="2x"
+															icon={faBootstrap}
 														/>
 													</Button>
 												</div>
