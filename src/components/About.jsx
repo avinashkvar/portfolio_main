@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade, Flip } from 'react-awesome-reveal';
 import './styles.css';
 import connectLight from '../media/connect-light1.svg';
-import connectDark from '../media/connect-dark1.svg';
+import profile from '../media/profilepic.jpg';
 import resume from '../media/Avinash k.pdf';
 import transcript from '../media/TejaswiChaudhari_transcript.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -147,7 +147,10 @@ const About = ({ darkMode }) => {
 								</Card.Body>
 							</Card>
 						</Col>
-						<Col lg={4} align="center">
+						<Col>
+							<img src={profile} alt="" className={darkMode ? "profilepic-dark" : "profilepic-light"} />
+						</Col>
+						{/* <Col lg={4} align="center">
 							<Card className="nbcard">
 								<Card.Body>
 									<Card.Title>
@@ -223,7 +226,7 @@ const About = ({ darkMode }) => {
 									/>
 								</Card.Body>
 							</Card>
-						</Col>
+						</Col> */}
 					</Row>
 					<br></br>
 					<hr></hr>

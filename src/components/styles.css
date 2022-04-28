@@ -71,6 +71,8 @@
 .hello-img{
     margin-top: 10px;
     max-height: 250px;
+    height: 300px;
+    width: 400px;
     /* border-radius: 50%; */
 }
 .display-3{
@@ -105,6 +107,9 @@ code{
 .connect-img{
     padding-bottom: 9px;
     margin-top: 15px;
+    margin-left: 100px;
+    height: 300px;
+    width: 400px;
 }
 strong, .with{
     color: var(--name);
@@ -113,9 +118,7 @@ strong, .with{
     margin-top: 15px;
 }
 .skills-img{
-    margin-left: 15px;
-    margin-top: 80px;
-    height: 150px;
+    height: 300px;
     width: auto;
 }
 .skills-btn{
@@ -203,4 +206,21 @@ strong, .with{
     text-align: center;
     color: var(--text-color);
     margin-top: 100px;
+}
+
+.profilepic-light{
+    margin-top: 30px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(233,128,116);
+}
+.profilepic-dark{
+    margin-top: 30px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(157,11,55);
 }
