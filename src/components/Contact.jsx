@@ -111,18 +111,22 @@ const Contact = ({darkMode}) => {
 										</a>
 									</Row>
 									<Row className="margin10">
-										<Button
-											variant={
-												darkMode ? 'outline-light' : 'outline-dark'
-											}
-										>
-											<FontAwesomeIcon
-												className="dark"
-												size="lg"
-												icon={faEnvelope}
-											/>{' '}
-											avinashk17avi@gmail.com
-										</Button>
+										<a href="mailto:avinashk17avi@gmail.com" target="_blank">
+											<Button
+												variant={
+													darkMode
+														? 'outline-light'
+														: 'outline-dark'
+												}
+											>
+												<FontAwesomeIcon
+													className="dark"
+													size="lg"
+													icon={faEnvelope}
+												/>{' '}
+												avinashk17avi@gmail.com
+											</Button>
+										</a>
 									</Row>
 									<Row className="margin10">
 										<a href="tel:+91 9110434503" target="_blank">
