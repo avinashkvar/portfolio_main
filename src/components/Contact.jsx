@@ -65,30 +65,66 @@ const Contact = ({darkMode}) => {
 										<h2 className="lead">Let's Connect!</h2>
 									</Card.Title>
 									<br></br>
-									<a
-										href="https://www.linkedin.com/in/avinash-k-8691021a8/"
-										target="_blank"
-										rel="noreferrer noopener"
-									>
+									<Row className="margin10">
+										<a
+											href="https://www.linkedin.com/in/avinash-k-8691021a8/"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											<Button
+												variant={
+													darkMode
+														? 'outline-light'
+														: 'outline-dark'
+												}
+												className="a"
+											>
+												<FontAwesomeIcon
+													className="dark"
+													size="lg"
+													icon={faLinkedin}
+												/>{' '}
+												Avinash K
+											</Button>
+										</a>
+									</Row>
+									<Row className="margin10">
+										<a
+											href="https://github.com/avinashkvar"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											<Button
+												variant={
+													darkMode
+														? 'outline-light'
+														: 'outline-dark'
+												}
+											>
+												<FontAwesomeIcon
+													className="dark"
+													size="lg"
+													icon={faGithub}
+												/>{' '}
+												Avinash K
+											</Button>
+										</a>
+									</Row>
+									<Row className="margin10">
 										<Button
 											variant={
 												darkMode ? 'outline-light' : 'outline-dark'
 											}
-											className="a"
 										>
 											<FontAwesomeIcon
 												className="dark"
 												size="lg"
-												icon={faLinkedin}
+												icon={faEnvelope}
 											/>{' '}
-											Avinash K
+											avinashk17avi@gmail.com
 										</Button>
-									</a>
-									<a
-										href="https://github.com/avinashkvar"
-										target="_blank"
-										rel="noreferrer noopener"
-									>
+									</Row>
+									<Row className="margin10">
 										<Button
 											variant={
 												darkMode ? 'outline-light' : 'outline-dark'
@@ -97,35 +133,11 @@ const Contact = ({darkMode}) => {
 											<FontAwesomeIcon
 												className="dark"
 												size="lg"
-												icon={faGithub}
+												icon={faPhoneAlt}
 											/>{' '}
-											Avinash K
+											+91 9110434503
 										</Button>
-									</a>
-									<Button
-										variant={
-											darkMode ? 'outline-light' : 'outline-dark'
-										}
-									>
-										<FontAwesomeIcon
-											className="dark"
-											size="lg"
-											icon={faEnvelope}
-										/>{' '}
-										avinashk17avi@gmail.com
-									</Button>
-									<Button
-										variant={
-											darkMode ? 'outline-light' : 'outline-dark'
-										}
-									>
-										<FontAwesomeIcon
-											className="dark"
-											size="lg"
-											icon={faPhoneAlt}
-										/>{' '}
-										+91 9110434503
-									</Button>
+									</Row>
 								</Card.Body>
 							</Card>
 						</Col>
