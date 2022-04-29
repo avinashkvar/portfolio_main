@@ -149,7 +149,7 @@ const Contact = ({darkMode}) => {
 							/>
 						</Col>
 					</Row>
-					<Row>
+					<Row className='margin30'>
 						<Col lg={4}>
 							<br></br>
 							<h2 className="lead">Contact me!</h2>
