@@ -1,12 +1,12 @@
 import React from 'react';
 import { Fade, Flip } from 'react-awesome-reveal';
 import './styles.css';
-import connectLight from '../media/connect-light1.svg';
-import profile from '../media/profilepic.jpg';
+
+import profile from '../media/profilepicture.jpg';
 import resume from '../media/Avinash k.pdf';
-import transcript from '../media/TejaswiChaudhari_transcript.pdf';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import { faFile, faEnvelope ,faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';

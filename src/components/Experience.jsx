@@ -1,8 +1,6 @@
 import { useState, React } from 'react';
 import { Zoom, Fade } from 'react-awesome-reveal';
-import dsc from '../media/DSC.png';
-import scr from '../media/SCR.png';
-import gotg from '../media/big.png';
+
 import weather from '../media/weather.png';
 import ca from '../media/big.png';
 import tcd from '../media/freshly.png';

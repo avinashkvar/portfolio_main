@@ -13,7 +13,7 @@ import './styles.css';
 import connectLight from '../media/connect-light1.svg';
 import connectDark from '../media/connect-dark1.svg';
 import resume from '../media/Avinash k.pdf';
-import transcript from '../media/TejaswiChaudhari_transcript.pdf';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import {

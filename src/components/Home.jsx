@@ -5,7 +5,7 @@ import helloDark from '../media/hello-dark1.svg';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/esm/Row';
 import Container from 'react-bootstrap/esm/Container';
-import helloDark1 from "../media/firstone.jpg"
+
 const Home = ({darkMode}) => {
     return (
 			<div>
