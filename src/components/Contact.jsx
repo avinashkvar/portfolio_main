@@ -125,18 +125,22 @@ const Contact = ({darkMode}) => {
 										</Button>
 									</Row>
 									<Row className="margin10">
-										<Button
-											variant={
-												darkMode ? 'outline-light' : 'outline-dark'
-											}
-										>
-											<FontAwesomeIcon
-												className="dark"
-												size="lg"
-												icon={faPhoneAlt}
-											/>{' '}
-											+91 9110434503
-										</Button>
+										<a href="tel:+91 9110434503" target="_blank">
+											<Button
+												variant={
+													darkMode
+														? 'outline-light'
+														: 'outline-dark'
+												}
+											>
+												<FontAwesomeIcon
+													className="dark"
+													size="lg"
+													icon={faPhoneAlt}
+												/>{' '}
+												+91 9110434503
+											</Button>
+										</a>
 									</Row>
 								</Card.Body>
 							</Card>
@@ -149,7 +153,7 @@ const Contact = ({darkMode}) => {
 							/>
 						</Col>
 					</Row>
-					<Row className='margin30'>
+					<Row className="margin30">
 						<Col lg={4}>
 							<br></br>
 							<h2 className="lead">Contact me!</h2>
