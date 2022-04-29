@@ -3,7 +3,7 @@ import { Zoom, Fade } from 'react-awesome-reveal';
 import dsc from '../media/DSC.png';
 import scr from '../media/SCR.png';
 import gotg from '../media/big.png';
-import rfp from '../media/RFP.png';
+import weather from '../media/weather.png';
 import ca from '../media/big.png';
 import tcd from '../media/freshly.png';
 import Container from 'react-bootstrap/esm/Container';
@@ -307,30 +307,25 @@ const Experience = ({ darkMode }) => {
 										<div class="flip-card">
 											<div class="flip-card-inner">
 												<div className="flip-card-front">
-													<Card.Img variant="top" src={ca} />
+													<Card.Img variant="top" src={weather} />
 													<Card.Body>
 														<Card.Title align="center">
-															BigBasket.com(Clone)
+															Weather App
 														</Card.Title>
 														<Card.Text>
 															<p align="center">
-																A Web Application where user can
-																order ther Grocery products.
+																A web application where user can
+																find the weather report
 															</p>
 														</Card.Text>
 													</Card.Body>
 												</div>
 												<div className="flip-card-back">
 													<p>
-														This is an Grocery Ordering Web
-														Application where the customers can
-														login and go through all the items i.e
-														vegetables,fruits,staples,cosmetic so
-														on & then they can add the items
-														according to their cart and pay for
-														the above items via card or cash, the
-														items get delivered. Thank You for
-														ordering
+														A simple weather application user can
+														find the latitude, longitude, wind
+														Speed and map etc, of perticular City By entering the proper city
+														name.
 													</p>
 													<Button
 														variant={
@@ -374,20 +369,6 @@ const Experience = ({ darkMode }) => {
 															icon={faJs}
 														/>
 													</Button>
-													<Button
-														variant={
-															darkMode
-																? 'outline-light'
-																: 'outline-dark'
-														}
-														className="skills-btn"
-													>
-														<FontAwesomeIcon
-															className="skill"
-															size="2x"
-															icon={faBootstrap}
-														/>
-													</Button>
 												</div>
 											</div>
 										</div>
@@ -395,7 +376,7 @@ const Experience = ({ darkMode }) => {
 									<br></br>
 									<div>
 										<a
-											href="https://bigbasket.vercel.app/"
+											href="https://super-bublanina-b5d8b9.netlify.app/"
 											target="_blank"
 											rel="noreferrer noopener"
 										>
@@ -411,7 +392,7 @@ const Experience = ({ darkMode }) => {
 											</Button>
 										</a>
 										<a
-											href="https://github.com/avinashkvar/bigbasket.git"
+											href="https://github.com/avinashkvar/wheather_app.git"
 											target="_blank"
 											rel="noreferrer noopener"
 										>
