@@ -39,7 +39,7 @@ const Skills = ({ darkMode }) => {
 							<Card className="nbcard">
 								<Button
 									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									className="skills-btn"
+									className="skills-btn margin5"
 								>
 									<FontAwesomeIcon
 										className="skill"
@@ -49,7 +49,7 @@ const Skills = ({ darkMode }) => {
 								</Button>
 								<Button
 									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									className="skills-btn"
+									className="skills-btn margin5"
 								>
 									<FontAwesomeIcon
 										className="skill"
@@ -59,7 +59,7 @@ const Skills = ({ darkMode }) => {
 								</Button>
 								<Button
 									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									className="skills-btn"
+									className="skills-btn margin5"
 								>
 									<FontAwesomeIcon
 										className="skill"
@@ -69,7 +69,7 @@ const Skills = ({ darkMode }) => {
 								</Button>
 								<Button
 									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									className="skills-btn"
+									className="skills-btn margin5"
 								>
 									<FontAwesomeIcon
 										className="skill"
@@ -79,7 +79,7 @@ const Skills = ({ darkMode }) => {
 								</Button>
 								<Button
 									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									className="skills-btn"
+									className="skills-btn margin5"
 								>
 									<FontAwesomeIcon
 										className="skill"

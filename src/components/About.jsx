@@ -114,6 +114,7 @@ const About = ({ darkMode }) => {
 										href={resume}
 										target="_blank"
 										rel="noreferrer noopener"
+										className='margin10'
 									>
 										<Button
 											variant={
@@ -129,12 +130,12 @@ const About = ({ darkMode }) => {
 											View Resume
 										</Button>
 									</a>
-									<a href={resume} download>
+									<a href={resume} download className='margin10'>
 										<Button
 											variant={
 												darkMode ? 'outline-light' : 'outline-dark'
 											}
-											className="a"
+											
 										>
 											<FontAwesomeIcon
 												className="dark"

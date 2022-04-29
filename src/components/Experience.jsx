@@ -81,7 +81,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -95,7 +95,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -109,7 +109,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -202,7 +202,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -216,7 +216,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -230,7 +230,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -244,7 +244,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -331,7 +331,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -345,7 +345,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
@@ -359,7 +359,7 @@ const Experience = ({ darkMode }) => {
 																? 'outline-light'
 																: 'outline-dark'
 														}
-														className="skills-btn"
+														className="skills-btn margin5"
 													>
 														<FontAwesomeIcon
 															className="skill"
