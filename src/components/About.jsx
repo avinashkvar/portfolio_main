@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade, Flip } from 'react-awesome-reveal';
 import './styles.css';
 
-import profile from '../media/profilepicture.jpg';
+import profile from '../media/proifilepic1.jpg';
 import resume from '../media/Avinash k.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
